@@ -8,3 +8,11 @@ console.log(five + five);
 const ten = 10;
 console.log(ten + 1);
 // returns a value of 11
+
+// function is a piece of program wrapped in a value
+// the prompt function uses the string that we provide to show in 
+// dialog box
+// prompt("Enter passcode");
+
+//
+console.log("this is a string");
