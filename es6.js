@@ -14,5 +14,13 @@ console.log(ten + 1);
 // dialog box
 // prompt("Enter passcode");
 
-//
+// console.log is another example of a function
 console.log("this is a string");
+
+let c = 10.8;
+console.log(c);
+
+// Return Values
+// The Math.max function will return the largest value
+console.log(Math.max(3, 78, 8, 9));
+
