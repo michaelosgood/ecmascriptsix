@@ -23,10 +23,11 @@ console.log(c);
 // Return Values
 // The Math.max function will return the largest value
 console.log(Math.max(3, 78, 8, 9));
+console.log(Math.min(5, 3, 2, 75, 2));
 
 // conditional example
-let theNumber = Number(prompt("Pick a number"));
-if (!Number.isNaN(theNumber)) {
-  console.log("Your number is the square root of " +
-              theNumber * theNumber);
-}
+// let theNumber = Number(prompt("Pick a number"));
+// if (!Number.isNaN(theNumber)) {
+//   console.log("Your number is the square root of " +
+//               theNumber * theNumber);
+// }
