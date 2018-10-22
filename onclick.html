@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+h1, p {
+    text-align: center;
+}
+button {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+<h1>Change border-collapse with JavaScript</h1>
+
+<p>Click the "Try it" button to change the border-collapse property of the TABLE element:</p>
+
+<button onclick="myFunction()">Click to collapse border</button>
+
+<table id="myTABLE">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Michael</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>Angela</td>
+    <td>22</td>
+  </tr>
+</table>
+
+<button onclick="undoFunction()">Click to separate border</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myTABLE").style.borderCollapse = "collapse";
+}
+
+function undoFunction() {
+    document.getElementById("myTABLE").style.borderCollapse = "separate";
+}
+</script>
+
+</body>
+</html>
